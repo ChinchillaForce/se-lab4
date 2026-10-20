@@ -58,4 +58,14 @@ class TorpedoStoreTest {
         assertEquals(true, result, "Firing all available torpedos should succeed");
         assertEquals(true, store.isEmpty(), "Torpedo count should be zero after firing all");
     }
+
+    @Test 
+    void fire_zeroTorpedos() {
+        TorpedoStore store = new TorpedoStore(3);
+        try {
+            store.fire(0);
+        } catch (IllegalArgumentException e) {
+            assertEquals("numberOfTorpedos", e.getMessage());
+        }
+    }
 }
