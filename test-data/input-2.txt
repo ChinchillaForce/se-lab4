@@ -1,0 +1,5 @@
+# Mindkét tárban pontosan 1-1 torpedó van
+GT4500,1,0,1,0
+TORPEDO,SINGLE
+TORPEDO,SINGLE
+TORPEDO,SINGLE

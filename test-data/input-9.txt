@@ -1,0 +1,3 @@
+# Elsődleges biztosan hibás, másodlagos sikeres
+GT4500,1,1,1,0
+TORPEDO,ALL

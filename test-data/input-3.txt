@@ -1,0 +1,3 @@
+# Elsődleges üres, de a másodlagosban van 1 torpedó
+GT4500,0,0,1,0
+TORPEDO,SINGLE
