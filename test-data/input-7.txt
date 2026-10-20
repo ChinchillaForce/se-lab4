@@ -1,0 +1,4 @@
+# Mindkét tárban pontosan 1-1 torpedó van, az ALL mindkettőt kilövi
+GT4500,1,0,1,0
+TORPEDO,ALL
+TORPEDO,SINGLE
