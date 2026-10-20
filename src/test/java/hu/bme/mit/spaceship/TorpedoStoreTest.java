@@ -2,6 +2,7 @@ package hu.bme.mit.spaceship;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import org.junit.jupiter.api.Test;
 
@@ -24,6 +25,8 @@ class TorpedoStoreTest {
         TorpedoStore store = new TorpedoStore(5);
         store.fire(1);
         assertEquals(4, store.getTorpedoCount(), "Torpedo count should decrease after firing");
+        boolean result = store.getTorpedoCount() == 4;
+        assertTrue(result, "Torpedo count should decrease after firing #2");
     }
 
     @Test
