@@ -1,0 +1,3 @@
+# Az elsődleges üres
+GT4500,0,0,0,0
+TORPEDO,ALL
