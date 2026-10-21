@@ -1,0 +1,4 @@
+# Az elsődleges sikeres volt, a másodlagos üres volt, majd az elsődleges is üres volt
+GT4500,1,0,0,0
+TORPEDO,SINGLE
+TORPEDO,SINGLE
